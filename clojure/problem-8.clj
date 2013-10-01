@@ -26,7 +26,7 @@
 ; x2 * x3 * x4 * x5 * x6 = y2
 ; x3 * x4 * x5 * x6 * x7 = y3
 ; ...
-; take different in sets y1 and y2 to get digits of value  
+; take difference in sets y1 and y2 to get digits of value; highest product there indicates highest set for y
 
 ; however I implemented this way for consicse ease of readibility
 

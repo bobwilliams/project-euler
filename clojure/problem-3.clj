@@ -32,7 +32,7 @@
 		(zero? (mod n d))))
 
 (defn lpf [n]
-	(let [q (long (clojure.Math/sqrt n))]			; quadratic limit
+	(let [q (long (clojure.Math/sqrt n))]			    ; quadratic limit
     	(loop [n n
         	   d 2]
       		(cond
