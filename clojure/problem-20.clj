@@ -5,6 +5,7 @@
 
 ; Find the sum of the digits in the number 100!
 
+; took awhile to find/figure out the *' (note the tick mark) to avoid stack overflow
 (defn factorial [n] (reduce *' (range 1 (inc n))))
 
 ; taken from my problem 16
