@@ -16,4 +16,4 @@
   (let [digits (map #(read-string (str %)) (seq (str num)))]
     (reduce + (map #(exp % 5) digits))))
 
- (filter #(= % (sum-of-fifth-powers %)) (range 10 1000000))
+(reduce + (filter #(= % (sum-of-fifth-powers %)) (range 10 1000000)))
