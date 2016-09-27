@@ -6,5 +6,4 @@
 (reduce +
   (clojure.set/union 
     (set (range 0 limit 3))
-    (set (range 0 limit 5))
-    (set (range 0 limit 9))))
+    (set (range 0 limit 5))))
